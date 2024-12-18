@@ -13,6 +13,9 @@
        - run: |
            echo "Hello world from ${{ github.actor}}."
            echo "current branch is '${{ github.ref }}'."
+           
        - name: Checkout
          uses: actions/checkout@v4.1.0
+         
+       - name: Un listado del directorio
        - run: tree
