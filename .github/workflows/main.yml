@@ -11,6 +11,7 @@
      steps:
        - name: Greet the user
          run: |
+           echo "Current branch is '${{ github.ref }}'."
            echo "Hello world from ${{ github.actor}}."
            
        - name: Checkout
