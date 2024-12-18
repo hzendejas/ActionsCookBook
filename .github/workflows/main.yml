@@ -13,7 +13,6 @@
        - run: |
            echo "Hello world from ${{ github.actor}}."
            echo "current branch is '${{ github.ref }}'."
-       - shell: bash
        - name: Checkout
          uses: actions/checkout@v4.1.0
        - run: tree
