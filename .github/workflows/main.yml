@@ -12,7 +12,7 @@
        - name: Greet the user
          run: |
            echo "Current branch is '${{ github.ref }}'."
-           echo "Hello world from ${{ github.actor}}."
+           echo "Hello world from ${{ github.actor}}. "
            
        - name: Checkout
          uses: actions/checkout@v4.1.0
